@@ -11,7 +11,7 @@ def curve_of_heart():
         point.forward(1) # space 
 
 def draw_heart():
-    
+    point.pencolor("brown") 
     point.fillcolor('RED')
     #begin
     point.begin_fill()

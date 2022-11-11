@@ -7,8 +7,8 @@ pygame.init()
 
 def curve_of_heart():
     for i in range(200):
-        point.right(1)
-        point.forward(1)
+        point.right(1) # corner 
+        point.forward(1) # space 
 
 def draw_heart():
     
@@ -35,7 +35,6 @@ def draw_heart():
     time.sleep(6)
 
 def main():
-
     draw_heart()
     point.ht()
 main()
